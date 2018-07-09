@@ -107,3 +107,19 @@ let anotherAlphabeticalBool = "xerox" > "xylophone"
 
 var age = 29
 let applySeniorDiscount = age >= 65
+
+// defining the "sayHello" function
+
+func sayHello() {
+    print("Hello!")
+}
+
+sayHello()
+
+let jarrod1 = "Jarrod"
+
+func sayHelloToStudent(student: String) {
+    print("Hello, \(student)!")
+}
+
+sayHelloToStudent(student: jarrod1)
